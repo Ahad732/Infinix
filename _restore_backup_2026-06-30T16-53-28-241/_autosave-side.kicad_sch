@@ -1,0 +1,4677 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "39bdfcc3-499f-4c0c-960e-2df94a7a5241")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 133.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e838d9-8433-4537-a4f2-c36e7690534c")
+	)
+	(junction
+		(at 143.51 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f4608e-db58-459e-90b0-7e76af0492b0")
+	)
+	(junction
+		(at 91.44 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16e72e9f-55ba-4f3f-b0ac-43e95675147a")
+	)
+	(junction
+		(at 63.5 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bed8534-d537-44d3-beca-910ea100b97c")
+	)
+	(junction
+		(at 81.28 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20cf37a3-6204-4c87-845b-ec9af4da1137")
+	)
+	(junction
+		(at 116.84 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36eb6301-09cc-4d4f-8ce9-649e4f7f54bb")
+	)
+	(junction
+		(at 91.44 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37cdce77-b038-4e64-8d8c-50f24031678c")
+	)
+	(junction
+		(at 127 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "386c412c-38a1-4ce1-8cd5-77c3a09c764f")
+	)
+	(junction
+		(at 81.28 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3ff5c8-9d47-4572-bf00-c3981a4423ab")
+	)
+	(junction
+		(at 63.5 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f359168-0b4e-4e32-9b4e-39ffadd63deb")
+	)
+	(junction
+		(at 116.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4389cdaf-0897-4ae9-ba7d-a8d8cb88f7a2")
+	)
+	(junction
+		(at 133.35 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b7e7616-a1dd-45a6-a681-5c987dbe2ced")
+	)
+	(junction
+		(at 73.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd96a57-e55b-4982-a1f9-e7b357cbae21")
+	)
+	(junction
+		(at 143.51 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5de836a6-a1e4-416f-a9c5-377b7e0342a1")
+	)
+	(junction
+		(at 109.22 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "643aa78e-691f-467a-bb01-3fafcc832a95")
+	)
+	(junction
+		(at 109.22 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6678902d-0769-4bfa-bb55-854126b43c24")
+	)
+	(junction
+		(at 109.22 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69dfecbb-de44-4f16-81e4-9ada8e3cfcae")
+	)
+	(junction
+		(at 73.66 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b55a33-b967-4bc4-ae46-46aa20c459be")
+	)
+	(junction
+		(at 99.06 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78167141-c8ff-40e7-820a-66690cd61c73")
+	)
+	(junction
+		(at 81.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a921be7-9804-4724-b6da-2e80058c077d")
+	)
+	(junction
+		(at 99.06 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f8f5d0-eb41-4929-8c8a-31d59de32186")
+	)
+	(junction
+		(at 73.66 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a6f9ebb-90f5-4308-b9a5-09791e1e6a3e")
+	)
+	(junction
+		(at 99.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919bedd7-ae67-4832-a339-ba145a41a5eb")
+	)
+	(junction
+		(at 63.5 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9317565c-c98c-4b92-b04e-f8c347f1958d")
+	)
+	(junction
+		(at 143.51 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94f1ac52-051c-406a-96b4-f2f9d7d682b4")
+	)
+	(junction
+		(at 81.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5b8f6d-aeef-4bbe-ac5d-b8e669630ac2")
+	)
+	(junction
+		(at 91.44 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a318bb77-a2c3-4db5-b03e-52e331532be9")
+	)
+	(junction
+		(at 127 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a333cedb-c9b9-446e-ac17-325f24847490")
+	)
+	(junction
+		(at 109.22 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b46b34b9-5eaf-46e9-a1a2-beab9dc2721c")
+	)
+	(junction
+		(at 116.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c144526f-eaf8-466c-bb4a-68392b408a40")
+	)
+	(junction
+		(at 73.66 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c17efe-0197-4460-a39c-145c8165572d")
+	)
+	(junction
+		(at 116.84 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca795368-bd73-4639-b8c8-dacaa712ded6")
+	)
+	(junction
+		(at 127 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce300d2b-4a2d-4d79-bd38-a883fa1d4f4d")
+	)
+	(junction
+		(at 127 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d28a6f7d-bedd-4690-8742-8e7f4c95715b")
+	)
+	(junction
+		(at 133.35 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d454ea90-e59d-4de8-8e99-b8b4b24477af")
+	)
+	(junction
+		(at 63.5 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d80c5de6-b982-404e-bc0a-4d0f06511792")
+	)
+	(junction
+		(at 143.51 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da4da048-0b89-4961-a951-300c30a83dd6")
+	)
+	(junction
+		(at 91.44 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2a76023-b883-4782-ac64-d03987fb24ad")
+	)
+	(junction
+		(at 99.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff0186d-edfb-4946-922f-dfa60157bb33")
+	)
+	(junction
+		(at 133.35 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c4a251-413e-4cb7-ade4-ddefe4b9fdfa")
+	)
+	(junction
+		(at 143.51 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa24059b-558a-4181-a9cd-c3fc3ebefdab")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ea168f-fa78-4363-938d-9b4fd9328b93")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c4ab8e-2843-4219-9241-e0fb0b40ac34")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060b25c7-c606-4b06-8273-12787289fec1")
+	)
+	(wire
+		(pts
+			(xy 143.51 132.08) (xy 148.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09daf2d3-0b8d-4a70-ae2e-35e7678b12a7")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119ee426-a287-42e2-b13a-e40c91391165")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1220b15e-79f9-4324-b9b5-b6f2821b72a6")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1491f0c3-5792-4422-a84b-22018cd9da25")
+	)
+	(wire
+		(pts
+			(xy 50.8 132.08) (xy 143.51 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2077deda-a979-4924-89c5-c5963e0585f4")
+	)
+	(wire
+		(pts
+			(xy 133.35 106.68) (xy 133.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23363585-1004-4819-9a49-391ece00647b")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234f3057-636e-468d-820c-b37b41d20f23")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aa3796-b019-4167-bd99-022768885603")
+	)
+	(wire
+		(pts
+			(xy 81.28 106.68) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cc46b2-38a9-4cea-8924-7dc51912214f")
+	)
+	(wire
+		(pts
+			(xy 81.28 41.91) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec4cf35-3b19-4754-8a4c-dfd2437af11a")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f089c25-c76d-481f-9a14-1a7c07df173f")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477ef3cb-88bb-454e-bb84-9ce392e14560")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 63.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd244ff-326b-4f97-92bd-951cd79e35c6")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce99e3f-5114-4cda-81f4-8414c07818b2")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5145f2b5-d980-44d6-bad7-a1bdf5db3997")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518aaacb-65bb-4ca5-9d8f-7dab5e77e249")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571d6c99-3144-4b4b-a440-4fa156a61fce")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cec2e0-5c49-4b5b-99b1-76d8f9a25a5b")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 81.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e25084-265a-4185-a30a-58c0cd2b5883")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3e7cd1-aed5-4c98-8e72-dc08f1a8c2d0")
+	)
+	(wire
+		(pts
+			(xy 116.84 41.91) (xy 124.46 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb92eba-ff7c-4625-a425-e244a96e0223")
+	)
+	(wire
+		(pts
+			(xy 133.35 53.34) (xy 133.35 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb22866-16c4-4ad3-b6eb-e6dc7293184f")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6438c8b2-6cb7-4198-8908-a385cf49481d")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 143.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777ad3fa-7290-49f8-87bf-9af34c5b0670")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ed6a1f-4032-49e4-96f7-08306b8c8a39")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dac1bfa-547b-473e-86ca-2cd26a25d8c2")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 71.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8124720e-04f2-43dc-9d14-50021075dc7e")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8137ee27-cd39-457a-b6be-8d3133d6a446")
+	)
+	(wire
+		(pts
+			(xy 143.51 114.3) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85911c4d-147a-42be-be04-afb1929db188")
+	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888e4e38-1fd8-4587-a09a-4b45633886b6")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6b35b3-cfdb-4128-914a-2b3d64f86b79")
+	)
+	(wire
+		(pts
+			(xy 91.44 114.3) (xy 109.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39766ba-d2ae-4e7f-88c0-846120b36b94")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94bec0d-1c98-48e7-b373-5f605b920a3f")
+	)
+	(wire
+		(pts
+			(xy 50.8 96.52) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1a120c-6042-4128-bce7-5099bf512284")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad047154-51fd-4e66-ba38-689fb6fb4812")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af880702-b3af-42f6-a610-aec1f352c32d")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0280b06-a265-4b61-88ca-797ef4756c59")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28f8943-38d2-4d20-b393-8d393e0071e7")
+	)
+	(wire
+		(pts
+			(xy 63.5 88.9) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbf1d15-1919-442f-8be1-1999b16ee786")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15d8254-e0d3-4164-9483-241529a56a8d")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5581a7f-7e9d-4d10-8f22-049f1722dca1")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 81.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8a718b-24c8-4107-8a7d-0fb79cad778e")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfb7a58-3b76-4c11-b65f-da7a0adca61f")
+	)
+	(wire
+		(pts
+			(xy 109.22 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4102bb1-4cae-42ea-96fd-8d9f58bfd5ea")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4621e08-3d2e-4d29-9ccb-324adfefa301")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d804957b-527b-44de-bb7b-d882a019dc31")
+	)
+	(wire
+		(pts
+			(xy 73.66 114.3) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcffb2b2-ea5b-4218-8f85-494934dcd386")
+	)
+	(wire
+		(pts
+			(xy 99.06 41.91) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed93fc62-4a88-4f4f-9bf2-0abf3dba446b")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9b8594-b7e9-4f1b-811b-09f027361871")
+	)
+	(wire
+		(pts
+			(xy 143.51 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b5dcdb-a990-499c-9eb2-86c26179434a")
+	)
+	(wire
+		(pts
+			(xy 99.06 41.91) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bb6801-8af3-47d9-818d-ad96c88a6f4d")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faef257d-3634-449f-a561-d50f9e251eb4")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc298259-9a74-46a0-89d4-8b0902ac81e3")
+	)
+	(label "ROW 0"
+		(at 52.07 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34f66af4-9acb-49e3-a4ea-c7e0b155e11a")
+	)
+	(label "COL 3"
+		(at 116.84 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75a932af-82be-4d6e-bd07-c0130aaab30e")
+	)
+	(label "COL 2"
+		(at 99.06 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80a48d7b-b673-4694-ab4e-55b5ce12a02a")
+	)
+	(label "ROW 3"
+		(at 52.07 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81ef899d-3f66-4ba9-8d61-4ef738a4c9d5")
+	)
+	(label "ROW 1"
+		(at 52.07 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a413d831-32e1-48b7-9f33-3d64dea085ea")
+	)
+	(label "ROW 4"
+		(at 52.07 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82592cd-dc39-4172-9cfa-0cfaf2582375")
+	)
+	(label "COL 0"
+		(at 63.5 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bed71b4f-3aa6-459f-8df3-117fcd011603")
+	)
+	(label "COL 4"
+		(at 133.35 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5fbcea7-ce00-48b9-b107-9ca254c116a5")
+	)
+	(label "ROW 2"
+		(at 52.07 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5b7c06c-f8ab-4862-b868-0b19dbf44531")
+	)
+	(label "COL 1"
+		(at 81.28 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffacd23c-a2d6-4042-9fdb-12ab70c9431a")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 121.92 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0257d040-b64d-4e29-8bc6-6935a02fc0c4")
+		(property "Reference" "SW34"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13d4eb03-fe19-421b-a3de-c8e441fbdbb1")
+		)
+		(pin "2"
+			(uuid "7100fe04-3a45-48d5-8dc4-0da2ac4c36ff")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW39")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 121.92 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b4b4aa8-e9e2-41f4-affd-3ec1658f12d0")
+		(property "Reference" "SW14"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8605e8c4-fdf5-4520-b756-70c95dd7c425")
+		)
+		(pin "2"
+			(uuid "ff99f7ac-323c-4a39-8414-839e4b1cfaba")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW19")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 127 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "141d1311-42a8-43dc-a512-db3f0272347f")
+		(property "Reference" "D6"
+			(at 129.54 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.54 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad4b6c98-90fd-4fb5-9b67-46dc5be8eb84")
+		)
+		(pin "2"
+			(uuid "2abf184a-4b87-44ac-85a3-4bb0bb8ff207")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 86.36 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14aa295c-4019-4ce0-b42e-7a45fe72743a")
+		(property "Reference" "SW3"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbfc5308-06c5-44bc-b97e-d5b519667640")
+		)
+		(pin "2"
+			(uuid "c98acbb0-91b0-4c28-be8b-f2ce49786e1c")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW4")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "157c1928-1e70-4957-8803-53f2306b6b14")
+		(property "Reference" "SW35"
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128787c6-0616-4fa3-b9bc-e2bed16023f4")
+		)
+		(pin "2"
+			(uuid "1b3d0ff0-89e0-4245-b464-3e7360ace42f")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW40")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 127 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f1e73f7-270e-489d-9eb0-dcf88854cca8")
+		(property "Reference" "D34"
+			(at 129.54 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.54 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a8df87-58a2-4296-87b8-50b68231f191")
+		)
+		(pin "2"
+			(uuid "d5bdade9-2854-4eec-9c61-112ee54300ef")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 86.36 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "224df244-4c57-4f27-8653-6ee00a23ae40")
+		(property "Reference" "SW32"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e21749c-0f9c-42b1-becb-f2aeea5a1182")
+		)
+		(pin "2"
+			(uuid "3b710976-2bbc-4ca0-9520-3332e9b77e8c")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW37")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 104.14 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3042b73e-1c52-4d21-bdf2-bbadaef53ca3")
+		(property "Reference" "SW33"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec47e41-2075-4244-ba94-698e14888ab0")
+		)
+		(pin "2"
+			(uuid "9f65830b-7bb1-4cab-9132-37a42521d6f6")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW38")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 104.14 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "367dfd5e-7db0-4261-8ee1-927ae0e51c65")
+		(property "Reference" "SW23"
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "747ac90d-3710-43cd-806f-dc7b1a7c6c67")
+		)
+		(pin "2"
+			(uuid "200d88f8-9a07-488a-b6c2-c3acd2f826a4")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW28")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369e3aed-d448-42a8-899e-c4e534ed7d14")
+		(property "Reference" "D41"
+			(at 146.05 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 146.05 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e7eeaa-a22e-4141-8327-9aa081913d8c")
+		)
+		(pin "2"
+			(uuid "24830b24-76f1-4c38-9874-590d5993b06e")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D42")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 109.22 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4988c25e-0629-4470-adcf-b05006d2ea5c")
+		(property "Reference" "D13"
+			(at 111.76 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 111.76 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab620baf-512a-46c5-9b5d-9af11c57e236")
+		)
+		(pin "2"
+			(uuid "40b2ae24-9927-43df-a8b4-9caee0bd565d")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc2dbd4-31e5-4a5b-97e2-1d7fbef451b9")
+		(property "Reference" "SW25"
+			(at 138.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c0a820-a410-48b0-b6a0-b34c45be3ca8")
+		)
+		(pin "2"
+			(uuid "cec9696a-fcad-46c6-8e0b-88cd30f954ee")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW30")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e002498-c94c-402d-a424-e1c0f5c321e6")
+		(property "Reference" "SW41"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030fa768-52a9-4e90-9a41-b53f15e34297")
+		)
+		(pin "2"
+			(uuid "cce2a7ad-8d8a-4f01-a01a-8021f6c37a6a")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW42")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ebe491e-cdde-4d42-ae95-2004fc4a1e14")
+		(property "Reference" "D22"
+			(at 93.98 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 93.98 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bba8c752-dacb-45e8-9d65-55fcd0366fbd")
+		)
+		(pin "2"
+			(uuid "0def91bd-878f-4aeb-bacf-02215d98cdea")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 127 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "520f13e7-ef7a-480a-8858-95bdaacf520e")
+		(property "Reference" "D14"
+			(at 129.54 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.54 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "493bc394-0e2a-4493-af6b-0f8890b4a149")
+		)
+		(pin "2"
+			(uuid "196c32b3-4306-499b-8ab1-40058821ca44")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523ea58e-fd2d-408c-8289-8a686b679632")
+		(property "Reference" "SW9"
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a93b2d1d-8cd1-468d-b905-3a41b7a2f979")
+		)
+		(pin "2"
+			(uuid "389cf0f0-d1db-454b-be9e-5de3eb23767b")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW10")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 73.66 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "562dfa31-b5cd-499c-846e-13a3f1d1fff8")
+		(property "Reference" "D21"
+			(at 76.2 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 76.2 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56443091-0f1a-447b-afa3-fb418f81443a")
+		)
+		(pin "2"
+			(uuid "17c5428a-4167-42bc-a487-3008cf4ea58c")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 121.92 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a0ca5d-2418-4591-ba78-97fafe9fd60b")
+		(property "Reference" "SW24"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e5c98ff-b226-48d6-a0c9-ffa66c0cbedb")
+		)
+		(pin "2"
+			(uuid "4d5c86e8-2911-4f84-a623-aae2faf2a2b9")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW29")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 73.66 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63b91b59-f7fd-43f0-a78c-28154e896ec6")
+		(property "Reference" "D31"
+			(at 76.2 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 76.2 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d90845b-08d5-4c81-befe-541d601a5d90")
+		)
+		(pin "2"
+			(uuid "a8be1070-946e-412e-88d6-a9b90a5a5e54")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731ba63f-d916-47af-b557-83752839f7da")
+		(property "Reference" "D12"
+			(at 93.98 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 93.98 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e14c6c-1701-4632-8b31-657228cb2733")
+		)
+		(pin "2"
+			(uuid "daa0f023-655a-4ba7-aed5-140d5acb52f9")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "774a29cb-8cf0-46e9-ab17-d906817bf134")
+		(property "Reference" "D32"
+			(at 93.98 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 93.98 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1fe5baa-72ed-4bee-974a-13f3e727497e")
+		)
+		(pin "2"
+			(uuid "a0f23790-a0fa-4924-afc4-1f25786563d9")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 86.36 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac7dc6c-1df7-4ad0-bad4-47a4b3c506ab")
+		(property "Reference" "SW12"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a79516-eb34-478d-8776-d76aad376644")
+		)
+		(pin "2"
+			(uuid "d51d303a-8af6-49a4-acb9-b57483bc5584")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW17")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9c3c83-1570-462f-baad-e0e6c0be8918")
+		(property "Reference" "D9"
+			(at 146.05 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 146.05 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a07d723b-665e-4e20-bb50-789b48ebb1ce")
+		)
+		(pin "2"
+			(uuid "7a4576d1-87e3-405f-8341-a1d957033a06")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 127 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce80af1-48d2-4fd2-9f71-067b0a13800a")
+		(property "Reference" "D24"
+			(at 129.54 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 129.54 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28b8d024-8089-447c-b157-4d420d6c2bde")
+		)
+		(pin "2"
+			(uuid "bd0affba-3abe-4c93-8d9f-d1255332ca56")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 109.22 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "918823c1-932b-4575-aae6-999a04fbb098")
+		(property "Reference" "D33"
+			(at 111.76 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 111.76 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d50b2198-1b18-40ae-8aa9-fdd67750e409")
+		)
+		(pin "2"
+			(uuid "f08d9302-eb29-42f5-8960-4a01646dd619")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c78468-8e9b-4e28-9c64-513dd345b173")
+		(property "Reference" "D15"
+			(at 146.05 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 146.05 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e838f0-d27f-4e67-9db0-b935a0126f0b")
+		)
+		(pin "2"
+			(uuid "8df9fc6b-ba4f-49ea-85eb-d12431414243")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 104.14 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ab1a605-fa7b-469c-b526-21a020ace867")
+		(property "Reference" "SW5"
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b106312-befd-4b8d-9c44-8dc19f8f8456")
+		)
+		(pin "2"
+			(uuid "c19edbd2-ed89-4fbb-9bdf-710215fd7ee4")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW7")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 109.22 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a421dec1-fc4f-47e6-a360-064567da40b3")
+		(property "Reference" "D23"
+			(at 111.76 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 111.76 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f43dd57-5721-4cb4-bea2-5bf519867de9")
+		)
+		(pin "2"
+			(uuid "f109adcb-c30b-4733-ae94-e10e7dd51d80")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 68.58 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b033c92e-7dfe-43a2-955c-4a13d92b977a")
+		(property "Reference" "SW21"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a583e1-6c6b-43d5-a66a-84402d93d60c")
+		)
+		(pin "2"
+			(uuid "28aac544-719c-4688-806c-99f3519b9614")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW26")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b7def7-48b1-4fbb-97a1-ca423df7d274")
+		(property "Reference" "D25"
+			(at 146.05 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 146.05 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1de5ac93-ff82-4571-b27a-6248a0647df2")
+		)
+		(pin "2"
+			(uuid "3fe82a9d-cbf9-44d0-9114-cbbb5337239e")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 68.58 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8fcdcaf-ca92-4dea-bc44-7a6a0665f864")
+		(property "Reference" "SW31"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da5a1fc-130d-4440-a95f-c4be7b9d23f3")
+		)
+		(pin "2"
+			(uuid "8a089240-9059-4d5c-9222-1f38233f57df")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW36")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 109.22 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbe64a1e-a658-4aab-8970-943b5040d778")
+		(property "Reference" "D5"
+			(at 111.76 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 111.76 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e65e39-c96d-4153-a351-b815faf2b7b4")
+		)
+		(pin "2"
+			(uuid "4f48a93f-77e2-4822-b857-4a408930a08e")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 104.14 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04a0530-6f83-47bf-a745-804f0acdfc84")
+		(property "Reference" "SW13"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d088843-6851-4579-874a-7e15a564730a")
+		)
+		(pin "2"
+			(uuid "ebe04198-cec1-4d05-9ad5-6525c3d5d922")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW18")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c05a795f-d3ab-429c-8392-ffecdc5d8cb9")
+		(property "Reference" "SW15"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ca8011-7ee5-4633-9993-26b458a87489")
+		)
+		(pin "2"
+			(uuid "462d5505-220a-4dca-a2a9-b7f1b72efc29")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW20")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 73.66 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d40a6f77-16a5-40f9-aeed-84896dec8769")
+		(property "Reference" "D11"
+			(at 76.2 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 76.2 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd7f813-0d4b-47ad-afa2-80f37bc989c4")
+		)
+		(pin "2"
+			(uuid "92a16d69-666e-4ae4-b03e-48194c77d9b9")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 86.36 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b6e548-2f53-478b-b1ca-55650a4f3829")
+		(property "Reference" "SW22"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c555791-c9eb-4c50-8f2a-e09f8bbe87a1")
+		)
+		(pin "2"
+			(uuid "0e28a3a2-bcbc-48ae-aecf-98e8c415c194")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW27")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 68.58 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e31ff6bd-5277-42ad-b6a8-53862afdf16a")
+		(property "Reference" "SW1"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb27050c-2cf5-4933-94d6-8fd090cc0b54")
+		)
+		(pin "2"
+			(uuid "e18c67d5-dc20-4850-992a-4d5117c3db2e")
+		)
+		(instances
+			(project ""
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW2")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 68.58 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4807368-8aa6-409d-a8df-9bf82c8d140d")
+		(property "Reference" "SW11"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b73f428-1f3a-4f41-b6d5-30059f79b84c")
+		)
+		(pin "2"
+			(uuid "ca590b94-f0e4-4c85-98ed-f73dc6de2c4d")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW16")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 73.66 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e66cbfb5-4e04-4ecc-8d27-fa0bfd24d194")
+		(property "Reference" "D1"
+			(at 76.2 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 76.2 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d223f57-cb13-4adc-bd7c-a588127cad57")
+		)
+		(pin "2"
+			(uuid "ee407fe0-2b30-490b-b46b-5115f6f46dec")
+		)
+		(instances
+			(project ""
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6dd5e01-05b5-40ce-9489-bbc464fa48ff")
+		(property "Reference" "D35"
+			(at 146.05 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 146.05 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c116ab7c-a663-4af7-bc75-d88732b87e57")
+		)
+		(pin "2"
+			(uuid "ceb8bd68-31a6-4ab7-858a-e3806559b4b6")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f65997-a50b-4a37-9c93-ed6fc2d998d4")
+		(property "Reference" "D3"
+			(at 93.98 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 93.98 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "908745c4-ddae-4844-8b4b-b21925619851")
+		)
+		(pin "2"
+			(uuid "bdb59114-d853-416d-9309-70d162349ed6")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 121.92 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc11a8f7-8c0e-4f4e-b579-c7e89f13f78d")
+		(property "Reference" "SW6"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68d6770-1c6d-45b4-b26e-cf9521d6e4df")
+		)
+		(pin "2"
+			(uuid "739ea52c-bbd7-47ce-ab2d-dbbe1a8abbe0")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "SW8")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
