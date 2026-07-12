@@ -7240,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Value" "2m"
+		(property "Value" "2M"
 			(at 185.42 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)

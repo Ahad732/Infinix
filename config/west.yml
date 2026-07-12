@@ -1,0 +1,14 @@
+manifest
+  remotes
+    - name zmkfirmware
+      url-base httpsgithub.comzmkfirmware
+
+  projects
+    - name zmk
+      remote zmkfirmware
+      revision main
+      import app
+
+  self
+    path config
+    
