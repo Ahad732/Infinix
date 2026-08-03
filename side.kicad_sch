@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "39bdfcc3-499f-4c0c-960e-2df94a7a5241")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -118,6 +118,161 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -446,6 +601,277 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 1.27 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1196,6 +1622,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1313,6 +1878,12 @@
 		)
 	)
 	(junction
+		(at 308.61 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a90523-ca39-48b5-bbb1-c32417497a08")
+	)
+	(junction
 		(at 179.07 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1325,10 +1896,64 @@
 		(uuid "07e838d9-8433-4537-a4f2-c36e7690534c")
 	)
 	(junction
+		(at 335.28 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "086b19af-aa0e-41ca-9274-5f83c756a6b2")
+	)
+	(junction
+		(at 335.28 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08feda15-57c4-4e0e-b986-08a0e16bbb4e")
+	)
+	(junction
+		(at 335.28 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a8d1ae2-7ddd-4570-90cb-df0f05a99810")
+	)
+	(junction
+		(at 304.8 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b203c4e-c1ec-4f65-954c-1c64891bfafd")
+	)
+	(junction
+		(at 335.28 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dae6295-3cc0-4c81-9965-2e7a3b5fc1b8")
+	)
+	(junction
+		(at 289.56 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ece2927-8732-46a0-8531-9d766d8afa81")
+	)
+	(junction
 		(at 143.51 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13f4608e-db58-459e-90b0-7e76af0492b0")
+	)
+	(junction
+		(at 316.23 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "142115a7-569c-4192-bc3d-b4d172d2cf0b")
+	)
+	(junction
+		(at 308.61 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14459ce3-8337-45e3-ae85-50f2d7f352a6")
+	)
+	(junction
+		(at 300.99 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161478bd-699e-408d-88a2-d9e36b9ff742")
 	)
 	(junction
 		(at 91.44 78.74)
@@ -1337,16 +1962,94 @@
 		(uuid "16e72e9f-55ba-4f3f-b0ac-43e95675147a")
 	)
 	(junction
+		(at 339.09 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ef6877-eb5f-4ef4-8c86-94846040fe2c")
+	)
+	(junction
+		(at 289.56 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19991153-9dae-4245-b5ac-85b4ecd508c1")
+	)
+	(junction
+		(at 347.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b654e06-ddf0-4475-9130-fe7ec83c2ceb")
+	)
+	(junction
+		(at 323.85 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b74493c-abaf-41f2-9eea-2ed6088f65e7")
+	)
+	(junction
+		(at 347.98 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b7ae84e-5343-4d7f-8c80-97d74d3e0d92")
+	)
+	(junction
 		(at 63.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bed8534-d537-44d3-beca-910ea100b97c")
 	)
 	(junction
+		(at 320.04 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c823903-4ed9-49cc-87ea-9c16ea85e1a9")
+	)
+	(junction
+		(at 331.47 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cad9cf8-51a7-4bfc-a246-8c32ec77ae0f")
+	)
+	(junction
 		(at 81.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20cf37a3-6204-4c87-845b-ec9af4da1137")
+	)
+	(junction
+		(at 316.23 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "247adc3d-0102-4633-96ff-0b679c6cd33f")
+	)
+	(junction
+		(at 347.98 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24f0f36d-1bfe-4c97-8c0d-6e3956edb99a")
+	)
+	(junction
+		(at 323.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25ec32d4-d552-40af-8f03-8aefea74f48a")
+	)
+	(junction
+		(at 289.56 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ed5116-6412-4208-a12d-9c3c95f80671")
+	)
+	(junction
+		(at 261.62 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ac21288-a6d2-4fec-8174-a8c1e2dc9e69")
+	)
+	(junction
+		(at 270.51 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32dde131-1aaa-4c11-836d-9af50ac4d20e")
 	)
 	(junction
 		(at 116.84 71.12)
@@ -1365,6 +2068,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "386c412c-38a1-4ce1-8cd5-77c3a09c764f")
+	)
+	(junction
+		(at 335.28 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3981dbad-4224-4d76-98e6-15e1d64eff51")
+	)
+	(junction
+		(at 320.04 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b2964c5-809b-4153-b4eb-98c12b9109de")
 	)
 	(junction
 		(at 81.28 106.68)
@@ -1397,10 +2112,52 @@
 		(uuid "4cd96a57-e55b-4982-a1f9-e7b357cbae21")
 	)
 	(junction
+		(at 320.04 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4efbebae-6d4f-43c1-87f8-9dde906849a7")
+	)
+	(junction
+		(at 274.32 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5296369c-7828-49d6-a4ae-561618d04d0d")
+	)
+	(junction
+		(at 339.09 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54139151-78d6-44ec-b37a-80fb9e2f3548")
+	)
+	(junction
+		(at 320.04 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549987d9-46ca-4d05-98ad-d68e8c611668")
+	)
+	(junction
+		(at 304.8 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e910b6-b98c-456d-829b-2e1994b34d2b")
+	)
+	(junction
+		(at 278.13 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f30303-35cf-45f1-ac49-09aac7fcfed7")
+	)
+	(junction
 		(at 143.51 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5de836a6-a1e4-416f-a9c5-377b7e0342a1")
+	)
+	(junction
+		(at 335.28 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a77378-378b-4b6f-a05b-43d20ba2b5f1")
 	)
 	(junction
 		(at 109.22 60.96)
@@ -1421,6 +2178,30 @@
 		(uuid "69dfecbb-de44-4f16-81e4-9ada8e3cfcae")
 	)
 	(junction
+		(at 335.28 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b6abfbd-469e-43eb-85c6-cd7c07db23c7")
+	)
+	(junction
+		(at 323.85 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bffcc60-be39-4b4a-984a-7aff18a34056")
+	)
+	(junction
+		(at 323.85 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2f3da7-11e1-469a-a95e-df66e1d2776e")
+	)
+	(junction
+		(at 285.75 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73508978-7215-47c5-b8fe-821982e0d9c6")
+	)
+	(junction
 		(at 73.66 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1433,10 +2214,64 @@
 		(uuid "78167141-c8ff-40e7-820a-66690cd61c73")
 	)
 	(junction
+		(at 300.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a1d6686-72b3-4419-b7b1-7aa42057e24d")
+	)
+	(junction
+		(at 285.75 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2207d8-740a-4aaa-866e-c337019ed21c")
+	)
+	(junction
 		(at 81.28 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a921be7-9804-4724-b6da-2e80058c077d")
+	)
+	(junction
+		(at 289.56 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bc7371a-60c5-4b63-b4bf-98da77b0b0b6")
+	)
+	(junction
+		(at 289.56 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c475bd1-2c7d-4c98-a20b-733a490911b1")
+	)
+	(junction
+		(at 300.99 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d899b21-5470-407d-8d06-0480ba904f2e")
+	)
+	(junction
+		(at 278.13 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e6e7c65-8875-4e6f-aecb-504993d038a0")
+	)
+	(junction
+		(at 304.8 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f10fd7f-161a-4d30-b705-f2c47a4eb7bf")
+	)
+	(junction
+		(at 278.13 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f558ca5-b5a1-4987-b7d8-a673e9d204e1")
+	)
+	(junction
+		(at 308.61 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81149e25-5bd0-4e43-8b33-8bfe42ab8cc7")
 	)
 	(junction
 		(at 99.06 71.12)
@@ -1445,10 +2280,28 @@
 		(uuid "85f8f5d0-eb41-4929-8c8a-31d59de32186")
 	)
 	(junction
+		(at 304.8 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a3ae4e2-f02d-4b7c-a9fc-d2111ecd5866")
+	)
+	(junction
 		(at 73.66 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a6f9ebb-90f5-4308-b9a5-09791e1e6a3e")
+	)
+	(junction
+		(at 304.8 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ab09d80-26b9-4d5d-bfde-96c6bb0ae50a")
+	)
+	(junction
+		(at 293.37 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbc3709-f211-43b5-8382-7d584344e698")
 	)
 	(junction
 		(at 99.06 88.9)
@@ -1463,16 +2316,46 @@
 		(uuid "9317565c-c98c-4b92-b04e-f8c347f1958d")
 	)
 	(junction
+		(at 300.99 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94755118-af5b-4a0f-982e-9f1468c0f4b5")
+	)
+	(junction
 		(at 143.51 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94f1ac52-051c-406a-96b4-f2f9d7d682b4")
 	)
 	(junction
+		(at 331.47 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95db3ed8-6acc-4789-8cf1-829a267fd723")
+	)
+	(junction
+		(at 289.56 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ff206e-7904-4d7e-b40f-5147de908e42")
+	)
+	(junction
+		(at 278.13 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "973a1777-58b1-4f2c-9d94-be4d361f6398")
+	)
+	(junction
 		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f5b8f6d-aeef-4bbe-ac5d-b8e669630ac2")
+	)
+	(junction
+		(at 331.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24e6c72-abf8-420c-9bd8-467f4dc0b423")
 	)
 	(junction
 		(at 91.44 96.52)
@@ -1487,10 +2370,70 @@
 		(uuid "a333cedb-c9b9-446e-ac17-325f24847490")
 	)
 	(junction
+		(at 270.51 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a33b1dba-c1ca-45b1-b02f-3040db9273a2")
+	)
+	(junction
+		(at 293.37 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a50352c3-0038-48d4-9ca6-78dfcd56f188")
+	)
+	(junction
+		(at 274.32 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5e5424d-0686-47d1-9930-89291a78da46")
+	)
+	(junction
+		(at 339.09 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac04aeea-cb3f-4bad-a843-c4adf44f5cce")
+	)
+	(junction
+		(at 316.23 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad36dcd5-62e4-4ee6-b8f1-b32e59bd8a50")
+	)
+	(junction
+		(at 320.04 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afeb6e77-6ca3-4838-9b63-f1960caf4dcc")
+	)
+	(junction
+		(at 261.62 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b23b37ac-feb6-41d0-867e-7e5d6ec282da")
+	)
+	(junction
 		(at 109.22 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46b34b9-5eaf-46e9-a1a2-beab9dc2721c")
+	)
+	(junction
+		(at 320.04 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b58d04cf-79ed-43eb-bf04-a19288c71238")
+	)
+	(junction
+		(at 308.61 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73d84ba-454a-4370-83c0-3166513e7177")
+	)
+	(junction
+		(at 285.75 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9287ed2-9d90-42bd-ac7d-fd878f1fce21")
 	)
 	(junction
 		(at 116.84 106.68)
@@ -1499,10 +2442,28 @@
 		(uuid "c144526f-eaf8-466c-bb4a-68392b408a40")
 	)
 	(junction
+		(at 347.98 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ae72e8-c047-49c1-bb92-9347057e5f4a")
+	)
+	(junction
+		(at 304.8 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5874200-2978-4247-8458-9bced0fc4d9e")
+	)
+	(junction
 		(at 73.66 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7c17efe-0197-4460-a39c-145c8165572d")
+	)
+	(junction
+		(at 270.51 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8980469-9924-4fad-ab03-6bd89ad381d2")
 	)
 	(junction
 		(at 116.84 53.34)
@@ -1511,10 +2472,22 @@
 		(uuid "ca795368-bd73-4639-b8c8-dacaa712ded6")
 	)
 	(junction
+		(at 320.04 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae1b980-b2da-4e56-a452-ca5042baaf63")
+	)
+	(junction
 		(at 127 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce300d2b-4a2d-4d79-bd38-a883fa1d4f4d")
+	)
+	(junction
+		(at 293.37 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb5bd70-b0ce-462b-a331-31e409dd0c79")
 	)
 	(junction
 		(at 127 60.96)
@@ -1541,10 +2514,46 @@
 		(uuid "da4da048-0b89-4961-a951-300c30a83dd6")
 	)
 	(junction
+		(at 274.32 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df1e10af-094f-44b2-a99f-1b0dca4453c1")
+	)
+	(junction
+		(at 274.32 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e87eb2-28b1-4ca1-8b7d-733b32cc4280")
+	)
+	(junction
 		(at 91.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2a76023-b883-4782-ac64-d03987fb24ad")
+	)
+	(junction
+		(at 274.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e919fe79-870f-4fec-8eb8-fab13988e569")
+	)
+	(junction
+		(at 261.62 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb1589b1-0aa2-4a73-8ded-f1a2624ff8c1")
+	)
+	(junction
+		(at 270.51 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb382dc4-617c-4412-b31b-7c1f359c5556")
+	)
+	(junction
+		(at 293.37 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef83be82-25f1-467f-ae9c-72c800a776e4")
 	)
 	(junction
 		(at 99.06 53.34)
@@ -1553,10 +2562,46 @@
 		(uuid "eff0186d-edfb-4946-922f-dfa60157bb33")
 	)
 	(junction
+		(at 304.8 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f01b0175-ea4e-4295-8ab1-c7b776a12474")
+	)
+	(junction
 		(at 133.35 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0c4a251-413e-4cb7-ade4-ddefe4b9fdfa")
+	)
+	(junction
+		(at 320.04 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f36d1eff-c9f1-454c-9e3b-050c90447d5a")
+	)
+	(junction
+		(at 289.56 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f37e2e63-f039-43a7-955b-6361b7a6e66e")
+	)
+	(junction
+		(at 304.8 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4951cc0-5a63-4db3-ba1b-f2bc5693de0c")
+	)
+	(junction
+		(at 289.56 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e00db3-672e-4b97-818f-362f580c2df8")
+	)
+	(junction
+		(at 331.47 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a196c0-67ee-4c9c-8560-b5d541cf218e")
 	)
 	(junction
 		(at 143.51 60.96)
@@ -1564,37 +2609,81 @@
 		(color 0 0 0 0)
 		(uuid "fa24059b-558a-4181-a9cd-c3fc3ebefdab")
 	)
+	(junction
+		(at 285.75 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcc7a964-9f0d-4014-bf88-c0e4161d9edf")
+	)
+	(junction
+		(at 339.09 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd43042-6720-4d99-9133-04351333e6be")
+	)
 	(no_connect
 		(at 198.12 81.28)
 		(uuid "0c500a62-f2cd-459e-b040-68c9e07339a3")
+	)
+	(no_connect
+		(at 327.66 172.72)
+		(uuid "3b35c2bf-f1c4-4996-a3a0-5bc262dd863b")
 	)
 	(no_connect
 		(at 194.31 44.45)
 		(uuid "7accdacc-0f7e-4f53-9d52-ae5e8fc72ee5")
 	)
 	(no_connect
-		(at 198.12 44.45)
-		(uuid "7e5cd020-6576-4d97-b2cb-d051f47a1889")
-	)
-	(no_connect
 		(at 210.82 52.07)
 		(uuid "99a0c9f1-7188-4e9f-8343-7e97307af906")
-	)
-	(no_connect
-		(at 210.82 59.69)
-		(uuid "b3112b47-e79a-473a-b403-d9959420799f")
 	)
 	(no_connect
 		(at 190.5 44.45)
 		(uuid "cc1973ab-fb1d-493b-af52-4a8be635438f")
 	)
 	(no_connect
-		(at 194.31 81.28)
-		(uuid "d713af3c-cee6-4a9d-a088-0f5fd502dc7b")
-	)
-	(no_connect
 		(at 186.69 44.45)
 		(uuid "d71bd67b-0edf-47dc-acaf-1792ff5149a5")
+	)
+	(wire
+		(pts
+			(xy 293.37 153.67) (xy 289.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005cd662-c0e6-4dbe-b282-4f93de5ade73")
+	)
+	(wire
+		(pts
+			(xy 261.62 113.03) (xy 270.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011016bd-cdad-4665-9574-599e1b0b2fcc")
+	)
+	(wire
+		(pts
+			(xy 335.28 165.1) (xy 347.98 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0334f702-3086-43d3-b649-6de271317599")
+	)
+	(wire
+		(pts
+			(xy 342.9 154.94) (xy 266.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039f7556-a00d-42f1-bed5-ea72447c6b6f")
 	)
 	(wire
 		(pts
@@ -1628,6 +2717,36 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 128.27) (xy 308.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060de712-8817-4acf-aac4-62b511f30c06")
+	)
+	(wire
+		(pts
+			(xy 323.85 153.67) (xy 320.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072b1528-eee1-4d07-8ee3-2a1f0f547bb6")
+	)
+	(wire
+		(pts
+			(xy 266.7 154.94) (xy 266.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0916fa0f-7593-409c-8395-f0365538bd33")
+	)
+	(wire
+		(pts
 			(xy 143.51 132.08) (xy 148.59 132.08)
 		)
 		(stroke
@@ -1635,6 +2754,86 @@
 			(type default)
 		)
 		(uuid "09daf2d3-0b8d-4a70-ae2e-35e7678b12a7")
+	)
+	(wire
+		(pts
+			(xy 323.85 153.67) (xy 323.85 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a766f03-fc16-4ebc-b7b6-109a45047477")
+	)
+	(wire
+		(pts
+			(xy 347.98 153.67) (xy 347.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c269d9c-43c7-4349-ab22-34d9476664f0")
+	)
+	(wire
+		(pts
+			(xy 289.56 138.43) (xy 300.99 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4ba4bf-7e84-49d6-a095-4bb8e7fe5033")
+	)
+	(wire
+		(pts
+			(xy 278.13 102.87) (xy 289.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6f211e-37a1-46fa-934b-08c7f16c1472")
+	)
+	(wire
+		(pts
+			(xy 246.38 62.23) (xy 246.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db053c6-54a0-4187-a93b-17a97995e672")
+	)
+	(wire
+		(pts
+			(xy 278.13 77.47) (xy 274.32 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e92c8c8-7635-4cd8-8e11-ee0e9912bd47")
+	)
+	(wire
+		(pts
+			(xy 320.04 77.47) (xy 308.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f979867-c190-4c5f-9274-79d1573ef7a7")
+	)
+	(wire
+		(pts
+			(xy 320.04 102.87) (xy 323.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9fe6c8-8ade-420c-b997-f381709c9759")
 	)
 	(wire
 		(pts
@@ -1668,6 +2867,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 138.43) (xy 270.51 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12553386-0fc4-44a6-adee-a38559045dce")
+	)
+	(wire
+		(pts
 			(xy 63.5 41.91) (xy 63.5 53.34)
 		)
 		(stroke
@@ -1675,6 +2884,86 @@
 			(type default)
 		)
 		(uuid "1491f0c3-5792-4422-a84b-22018cd9da25")
+	)
+	(wire
+		(pts
+			(xy 323.85 77.47) (xy 320.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c92eda-648d-4229-9b7c-f066202be28a")
+	)
+	(wire
+		(pts
+			(xy 351.79 77.47) (xy 351.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b092ce-be71-4e43-8e05-2cb37f86be94")
+	)
+	(wire
+		(pts
+			(xy 342.9 120.65) (xy 342.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a97f24b-6388-459f-b3d8-9357d88fae5d")
+	)
+	(wire
+		(pts
+			(xy 289.56 113.03) (xy 300.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e17dd1e-bdb4-4194-a2d6-b4bea38eee1a")
+	)
+	(wire
+		(pts
+			(xy 331.47 138.43) (xy 331.47 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e18c006-feff-452b-9ccb-de164d1215e9")
+	)
+	(wire
+		(pts
+			(xy 331.47 138.43) (xy 335.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb51e48-bc33-4448-b778-03d42de807aa")
+	)
+	(wire
+		(pts
+			(xy 342.9 69.85) (xy 342.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f028d6d-d3dc-4fb1-8509-701f8921def5")
+	)
+	(wire
+		(pts
+			(xy 274.32 62.23) (xy 285.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f91e383-b2ae-4be6-b1b5-736c7cd03706")
 	)
 	(wire
 		(pts
@@ -1698,6 +2987,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 128.27) (xy 308.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2219d427-6ebd-4b1f-9029-283c93a4ebf5")
+	)
+	(wire
+		(pts
 			(xy 133.35 106.68) (xy 133.35 124.46)
 		)
 		(stroke
@@ -1715,6 +3014,46 @@
 			(type default)
 		)
 		(uuid "234f3057-636e-468d-820c-b37b41d20f23")
+	)
+	(wire
+		(pts
+			(xy 270.51 87.63) (xy 270.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29684f54-cfb9-47aa-a4c5-f4ac4982401c")
+	)
+	(wire
+		(pts
+			(xy 285.75 87.63) (xy 285.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e182aa1-8c16-418f-8546-a838de9471a0")
+	)
+	(wire
+		(pts
+			(xy 304.8 153.67) (xy 293.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef0bbf0-2596-40d5-8232-25974bb00cf7")
+	)
+	(wire
+		(pts
+			(xy 308.61 77.47) (xy 308.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f22fc87-af64-48c8-b31a-977bc88b4504")
 	)
 	(wire
 		(pts
@@ -1738,6 +3077,56 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 153.67) (xy 304.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c002f3-42e4-48eb-bf31-5b9d206fe26d")
+	)
+	(wire
+		(pts
+			(xy 304.8 62.23) (xy 316.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d0bba0-b158-45b5-842b-5a5753f75b79")
+	)
+	(wire
+		(pts
+			(xy 320.04 153.67) (xy 308.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3577189f-cb8a-4593-aa54-a74a704dd4ba")
+	)
+	(wire
+		(pts
+			(xy 320.04 87.63) (xy 331.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38abe3bc-a6b6-4763-8865-ba111a219aeb")
+	)
+	(wire
+		(pts
+			(xy 278.13 153.67) (xy 278.13 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394cb166-4d61-41df-a8c4-472ac5984d96")
+	)
+	(wire
+		(pts
 			(xy 81.28 106.68) (xy 81.28 120.65)
 		)
 		(stroke
@@ -1745,6 +3134,36 @@
 			(type default)
 		)
 		(uuid "39cc46b2-38a9-4cea-8924-7dc51912214f")
+	)
+	(wire
+		(pts
+			(xy 285.75 138.43) (xy 289.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1b7ab4-e58f-42e1-9de3-e3789c20839a")
+	)
+	(wire
+		(pts
+			(xy 347.98 153.67) (xy 347.98 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da0344f-011a-4ed9-a6a7-e8009127e1a9")
+	)
+	(wire
+		(pts
+			(xy 274.32 87.63) (xy 285.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1dc88f-a826-44c5-88fd-350aab719f2b")
 	)
 	(wire
 		(pts
@@ -1768,6 +3187,26 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 102.87) (xy 293.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f535185-e21a-49c2-bd56-41664be4cd44")
+	)
+	(wire
+		(pts
+			(xy 289.56 153.67) (xy 278.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f96875a-e3d8-4acb-9b48-42e738c50e9f")
+	)
+	(wire
+		(pts
 			(xy 210.82 71.12) (xy 218.44 71.12)
 		)
 		(stroke
@@ -1775,6 +3214,36 @@
 			(type default)
 		)
 		(uuid "41fa2514-8d10-41ca-9d76-aae05448009b")
+	)
+	(wire
+		(pts
+			(xy 293.37 153.67) (xy 293.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ec9e7e-9c35-49b0-a53d-fe49e775e298")
+	)
+	(wire
+		(pts
+			(xy 274.32 62.23) (xy 270.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ed769a-ce04-407d-b596-4371a1398a00")
+	)
+	(wire
+		(pts
+			(xy 335.28 113.03) (xy 354.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43020c1c-13f0-465d-8024-d46b3a7a730c")
 	)
 	(wire
 		(pts
@@ -1798,6 +3267,46 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 77.47) (xy 278.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b12a62-571d-4252-9112-5549811daefd")
+	)
+	(wire
+		(pts
+			(xy 347.98 180.34) (xy 347.98 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad5d8d5-5ca4-4c53-92bf-6c5b03058657")
+	)
+	(wire
+		(pts
+			(xy 323.85 102.87) (xy 323.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aef148a-ff11-4852-8ba1-286225f9bb9b")
+	)
+	(wire
+		(pts
+			(xy 339.09 128.27) (xy 347.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0a9147-d87e-4518-97c9-f98a2aa46e2b")
+	)
+	(wire
+		(pts
 			(xy 63.5 106.68) (xy 63.5 120.65)
 		)
 		(stroke
@@ -1818,6 +3327,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 102.87) (xy 278.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513aa851-21cb-4dea-b46e-54904baca13d")
+	)
+	(wire
+		(pts
 			(xy 50.8 60.96) (xy 73.66 60.96)
 		)
 		(stroke
@@ -1835,6 +3354,36 @@
 			(type default)
 		)
 		(uuid "518aaacb-65bb-4ca5-9d8f-7dab5e77e249")
+	)
+	(wire
+		(pts
+			(xy 323.85 102.87) (xy 335.28 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b4c8fa-afe1-4e79-9686-8c53090ea11d")
+	)
+	(wire
+		(pts
+			(xy 331.47 87.63) (xy 331.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544c6f56-53ae-4c45-ab7a-c03c2dd341ea")
+	)
+	(wire
+		(pts
+			(xy 304.8 77.47) (xy 293.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567a962c-8c35-4749-95a4-e55220368194")
 	)
 	(wire
 		(pts
@@ -1868,6 +3417,26 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 153.67) (xy 274.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f24b33-17ef-49dc-ad7f-faad9877cd8d")
+	)
+	(wire
+		(pts
+			(xy 285.75 113.03) (xy 285.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af8c798-9b84-4793-81bb-4b96b3bd3a17")
+	)
+	(wire
+		(pts
 			(xy 116.84 88.9) (xy 116.84 106.68)
 		)
 		(stroke
@@ -1875,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "5c3e7cd1-aed5-4c98-8e72-dc08f1a8c2d0")
+	)
+	(wire
+		(pts
+			(xy 293.37 102.87) (xy 304.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9c16b0-4870-4bef-b81d-e7ae45c42bc2")
 	)
 	(wire
 		(pts
@@ -1888,6 +3467,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 113.03) (xy 285.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0382c6-0c4d-41b8-b62f-7eac3ac7253e")
+	)
+	(wire
+		(pts
 			(xy 133.35 53.34) (xy 133.35 71.12)
 		)
 		(stroke
@@ -1895,6 +3484,36 @@
 			(type default)
 		)
 		(uuid "5eb22866-16c4-4ad3-b6eb-e6dc7293184f")
+	)
+	(wire
+		(pts
+			(xy 320.04 113.03) (xy 331.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f5eb5a-4e85-4696-bdbc-92f9a65d9597")
+	)
+	(wire
+		(pts
+			(xy 278.13 128.27) (xy 289.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62af348a-732d-4600-8833-7e3741bfa677")
+	)
+	(wire
+		(pts
+			(xy 274.32 128.27) (xy 278.13 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d2f11c-537d-486a-9ea8-04877e4366ac")
 	)
 	(wire
 		(pts
@@ -1928,6 +3547,26 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 62.23) (xy 300.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66576a6c-7799-4a8e-81be-11e50a782283")
+	)
+	(wire
+		(pts
+			(xy 331.47 113.03) (xy 335.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690c392c-f09d-4609-9922-f90ee470e295")
+	)
+	(wire
+		(pts
 			(xy 163.83 133.35) (xy 168.91 133.35)
 		)
 		(stroke
@@ -1938,6 +3577,56 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 138.43) (xy 320.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69edb628-c57f-4c87-9258-6fdc479be9ba")
+	)
+	(wire
+		(pts
+			(xy 339.09 153.67) (xy 339.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab35be8-48a2-43b5-b999-548f33cb190c")
+	)
+	(wire
+		(pts
+			(xy 339.09 153.67) (xy 335.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3871ea-958c-4cb0-94a5-ba7f0f268ae7")
+	)
+	(wire
+		(pts
+			(xy 246.38 76.2) (xy 261.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff025c3-06be-4e60-9960-f5f864d88f5c")
+	)
+	(wire
+		(pts
+			(xy 270.51 138.43) (xy 270.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b99f85-195f-43a4-a16b-0fb998bcf8c0")
+	)
+	(wire
+		(pts
 			(xy 171.45 138.43) (xy 179.07 138.43)
 		)
 		(stroke
@@ -1945,6 +3634,46 @@
 			(type default)
 		)
 		(uuid "70d71801-38e3-4d38-bc03-77e5cd334dd8")
+	)
+	(wire
+		(pts
+			(xy 261.62 76.2) (xy 261.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74897496-f80c-4c88-86cf-02ed97fb88f9")
+	)
+	(wire
+		(pts
+			(xy 308.61 128.27) (xy 320.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7597838c-98af-4681-897a-14569142d62d")
+	)
+	(wire
+		(pts
+			(xy 347.98 77.47) (xy 339.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763013d4-fc87-4878-aa11-4e0f651df632")
+	)
+	(wire
+		(pts
+			(xy 285.75 62.23) (xy 285.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b3b777-8e17-4b32-bf68-43fdc16b778e")
 	)
 	(wire
 		(pts
@@ -1988,6 +3717,66 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 138.43) (xy 285.75 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7950c2f0-97ad-4c1c-8abb-c2c36d5d3e1f")
+	)
+	(wire
+		(pts
+			(xy 347.98 128.27) (xy 347.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d861c4-1d77-405e-85f9-3a30bfcf5a34")
+	)
+	(wire
+		(pts
+			(xy 331.47 62.23) (xy 335.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a61716b-af9f-4c84-a4cd-c47597a390b6")
+	)
+	(wire
+		(pts
+			(xy 274.32 102.87) (xy 278.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6cc06e-bf12-4ea0-8aeb-2566f915d57e")
+	)
+	(wire
+		(pts
+			(xy 331.47 62.23) (xy 331.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfe8dc9-ac64-454d-8dd0-7c222b0dd752")
+	)
+	(wire
+		(pts
+			(xy 308.61 102.87) (xy 308.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbc426b-c36a-44b3-9049-20906b8c750c")
+	)
+	(wire
+		(pts
 			(xy 116.84 106.68) (xy 116.84 120.65)
 		)
 		(stroke
@@ -2028,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 102.87) (xy 347.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8279921c-e9e1-4cc0-b233-50a0ef4d746b")
+	)
+	(wire
+		(pts
 			(xy 143.51 114.3) (xy 148.59 114.3)
 		)
 		(stroke
@@ -2035,6 +3834,26 @@
 			(type default)
 		)
 		(uuid "85911c4d-147a-42be-be04-afb1929db188")
+	)
+	(wire
+		(pts
+			(xy 285.75 113.03) (xy 289.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86358637-553d-4251-ad53-7fa708198133")
+	)
+	(wire
+		(pts
+			(xy 293.37 102.87) (xy 293.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8760aa57-d933-46bc-b205-c5212bec9b45")
 	)
 	(wire
 		(pts
@@ -2058,6 +3877,36 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 102.87) (xy 339.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aad9fa5-fb3e-4209-8600-060735041637")
+	)
+	(wire
+		(pts
+			(xy 289.56 128.27) (xy 293.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb78311-e803-4cda-8c73-693d3be352b3")
+	)
+	(wire
+		(pts
+			(xy 285.75 62.23) (xy 289.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2d4da4-aa19-4583-bc85-5491df56f54f")
+	)
+	(wire
+		(pts
 			(xy 165.1 52.07) (xy 172.72 52.07)
 		)
 		(stroke
@@ -2065,6 +3914,76 @@
 			(type default)
 		)
 		(uuid "8ff0f581-984b-47b7-a17e-b6f7913c25a5")
+	)
+	(wire
+		(pts
+			(xy 289.56 87.63) (xy 300.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff805f9-a3a9-4542-8089-ea77e6e3ff9e")
+	)
+	(wire
+		(pts
+			(xy 339.09 77.47) (xy 339.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c83a9d-cefe-4f4e-bfb7-9fe4df2a7b4b")
+	)
+	(wire
+		(pts
+			(xy 270.51 62.23) (xy 246.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940dfd35-8154-46de-90a6-9e06b9cd5f3c")
+	)
+	(wire
+		(pts
+			(xy 300.99 138.43) (xy 300.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f96db2-0b4e-4931-94ba-1e56089b8550")
+	)
+	(wire
+		(pts
+			(xy 323.85 128.27) (xy 335.28 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f78c0a-29b1-4697-8d1a-82214749a1e3")
+	)
+	(wire
+		(pts
+			(xy 316.23 87.63) (xy 316.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0e5dc7-1e51-4db6-9d1c-4430a7be8028")
+	)
+	(wire
+		(pts
+			(xy 278.13 128.27) (xy 278.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0c27ba-7600-40f1-87de-6623711a6951")
 	)
 	(wire
 		(pts
@@ -2098,6 +4017,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 128.27) (xy 293.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06edaa6-874d-4803-8363-cfc17b6d4aae")
+	)
+	(wire
+		(pts
+			(xy 304.8 87.63) (xy 316.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d7c6f9-53c4-44a6-89f8-dde33b3c7bbe")
+	)
+	(wire
+		(pts
 			(xy 91.44 114.3) (xy 109.22 114.3)
 		)
 		(stroke
@@ -2108,6 +4047,36 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 128.27) (xy 323.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c979eb-4d08-420f-9dab-ccb80b97f916")
+	)
+	(wire
+		(pts
+			(xy 316.23 62.23) (xy 316.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d9bd89-3003-4093-af8c-896de2578b15")
+	)
+	(wire
+		(pts
+			(xy 300.99 138.43) (xy 304.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a48eca-7f33-4311-8859-58710243acb0")
+	)
+	(wire
+		(pts
 			(xy 109.22 96.52) (xy 127 96.52)
 		)
 		(stroke
@@ -2115,6 +4084,16 @@
 			(type default)
 		)
 		(uuid "a94bec0d-1c98-48e7-b373-5f605b920a3f")
+	)
+	(wire
+		(pts
+			(xy 339.09 128.27) (xy 339.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9502d28-10cf-4341-9cba-76fb356976ae")
 	)
 	(wire
 		(pts
@@ -2138,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 62.23) (xy 304.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6ef996-93ff-431a-831f-a6c772dc85af")
+	)
+	(wire
+		(pts
 			(xy 127 114.3) (xy 143.51 114.3)
 		)
 		(stroke
@@ -2145,6 +4134,16 @@
 			(type default)
 		)
 		(uuid "ad047154-51fd-4e66-ba38-689fb6fb4812")
+	)
+	(wire
+		(pts
+			(xy 270.51 87.63) (xy 274.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7b0f5a-585a-49b6-a910-2bd84b534717")
 	)
 	(wire
 		(pts
@@ -2168,6 +4167,26 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 77.47) (xy 304.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e0212-d536-466e-9662-f144bb308fe4")
+	)
+	(wire
+		(pts
+			(xy 285.75 87.63) (xy 289.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2225033-ec35-49ca-9db8-2133a03892a8")
+	)
+	(wire
+		(pts
 			(xy 91.44 78.74) (xy 109.22 78.74)
 		)
 		(stroke
@@ -2175,6 +4194,76 @@
 			(type default)
 		)
 		(uuid "b28f8943-38d2-4d20-b393-8d393e0071e7")
+	)
+	(wire
+		(pts
+			(xy 270.51 113.03) (xy 274.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b484ddb4-7724-43cd-9c36-597f623dd93d")
+	)
+	(wire
+		(pts
+			(xy 293.37 77.47) (xy 289.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b627bbf8-b8c1-4dd0-9658-2916170c77d4")
+	)
+	(wire
+		(pts
+			(xy 339.09 102.87) (xy 347.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69dad3c-0735-47dc-b110-b672bb44b5f3")
+	)
+	(wire
+		(pts
+			(xy 300.99 87.63) (xy 300.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba78d151-ea6f-4877-a835-04f941db384c")
+	)
+	(wire
+		(pts
+			(xy 293.37 128.27) (xy 304.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2d9879-2127-4662-bb15-84e46404bfcf")
+	)
+	(wire
+		(pts
+			(xy 331.47 113.03) (xy 331.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc54a3cb-a14e-4d62-a997-00f0a30d0a15")
+	)
+	(wire
+		(pts
+			(xy 335.28 180.34) (xy 347.98 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc96902f-7144-491a-967d-65f9de91c8b4")
 	)
 	(wire
 		(pts
@@ -2188,6 +4277,26 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 113.03) (xy 354.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc79245-fbe0-4f34-997b-6864d0807137")
+	)
+	(wire
+		(pts
+			(xy 270.51 138.43) (xy 274.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd00c12d-2723-42ec-93c6-5270958022f5")
+	)
+	(wire
+		(pts
 			(xy 73.66 96.52) (xy 91.44 96.52)
 		)
 		(stroke
@@ -2195,6 +4304,16 @@
 			(type default)
 		)
 		(uuid "c15d8254-e0d3-4164-9483-241529a56a8d")
+	)
+	(wire
+		(pts
+			(xy 304.8 102.87) (xy 308.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e8d8b4-f098-457f-8d69-4516c0f6bdf1")
 	)
 	(wire
 		(pts
@@ -2215,6 +4334,26 @@
 			(type default)
 		)
 		(uuid "ca8a718b-24c8-4107-8a7d-0fb79cad778e")
+	)
+	(wire
+		(pts
+			(xy 289.56 62.23) (xy 300.99 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad14898-3109-4fe2-be4e-5fd455988e73")
+	)
+	(wire
+		(pts
+			(xy 335.28 77.47) (xy 323.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbad90bd-785a-4549-9390-1be5ef19308c")
 	)
 	(wire
 		(pts
@@ -2248,6 +4387,66 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 176.53) (xy 354.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbfeffd-4ba2-43ee-a1ca-fbef5d1cfc6a")
+	)
+	(wire
+		(pts
+			(xy 320.04 128.27) (xy 323.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02d07c7-067c-4e63-b7ce-822749f06a04")
+	)
+	(wire
+		(pts
+			(xy 335.28 180.34) (xy 261.62 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a41063-5071-4597-bf78-90b7d5113cdd")
+	)
+	(wire
+		(pts
+			(xy 304.8 138.43) (xy 316.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eefdf8-a789-4f4f-b24c-074e2d87e318")
+	)
+	(wire
+		(pts
+			(xy 261.62 113.03) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20a50c9-4684-49bf-8e28-ddee83983ddd")
+	)
+	(wire
+		(pts
+			(xy 270.51 113.03) (xy 270.51 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ac4522-1377-4a90-9122-7cd4b942fdf1")
+	)
+	(wire
+		(pts
 			(xy 109.22 114.3) (xy 127 114.3)
 		)
 		(stroke
@@ -2258,6 +4457,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 77.47) (xy 278.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44a8d01-bfea-40f4-9049-355cad186f5e")
+	)
+	(wire
+		(pts
 			(xy 91.44 60.96) (xy 109.22 60.96)
 		)
 		(stroke
@@ -2265,6 +4474,86 @@
 			(type default)
 		)
 		(uuid "d4621e08-3d2e-4d29-9ccb-324adfefa301")
+	)
+	(wire
+		(pts
+			(xy 335.28 62.23) (xy 351.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d40a82-d91c-4343-9147-29410111a133")
+	)
+	(wire
+		(pts
+			(xy 342.9 172.72) (xy 342.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d513f772-d64b-499b-b244-2fed73bfc5e8")
+	)
+	(wire
+		(pts
+			(xy 335.28 153.67) (xy 323.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5589a13-2441-4323-bbdf-a32ec0c44c57")
+	)
+	(wire
+		(pts
+			(xy 308.61 102.87) (xy 320.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b099c9-3491-4ffa-89e0-5abff2c84bf7")
+	)
+	(wire
+		(pts
+			(xy 300.99 113.03) (xy 300.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e6bf04-7e2d-4098-ae12-c75a2c2f9935")
+	)
+	(wire
+		(pts
+			(xy 270.51 62.23) (xy 270.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fd3620-356c-49c2-b12a-66a87f884e64")
+	)
+	(wire
+		(pts
+			(xy 320.04 138.43) (xy 331.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76cc391-482a-450b-b84a-b93099be9615")
+	)
+	(wire
+		(pts
+			(xy 335.28 128.27) (xy 339.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79e9639-aff7-4ed8-9d21-04299666fcf7")
 	)
 	(wire
 		(pts
@@ -2288,6 +4577,36 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 153.67) (xy 308.61 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8438698-a2c1-4bbe-babb-f54042d9e923")
+	)
+	(wire
+		(pts
+			(xy 331.47 87.63) (xy 335.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d847f4b9-fd0c-4d39-b746-d0d144637399")
+	)
+	(wire
+		(pts
+			(xy 339.09 77.47) (xy 335.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d977844f-5721-4198-9d31-132483f02985")
+	)
+	(wire
+		(pts
 			(xy 165.1 59.69) (xy 172.72 59.69)
 		)
 		(stroke
@@ -2295,6 +4614,16 @@
 			(type default)
 		)
 		(uuid "da1fcec8-4eea-48c6-a22e-518da1215d35")
+	)
+	(wire
+		(pts
+			(xy 347.98 77.47) (xy 351.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe774d5-05b8-4ba1-9bfb-cad9c894b449")
 	)
 	(wire
 		(pts
@@ -2308,6 +4637,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 77.47) (xy 293.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def060ec-b004-4b74-97ab-0ba1b4207ac2")
+	)
+	(wire
+		(pts
 			(xy 165.1 74.93) (xy 172.72 74.93)
 		)
 		(stroke
@@ -2315,6 +4654,66 @@
 			(type default)
 		)
 		(uuid "e073d3b4-8613-44ef-8725-550ea0434f2a")
+	)
+	(wire
+		(pts
+			(xy 347.98 153.67) (xy 339.09 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b061b5-38e2-4cc3-9157-1fbe3b032eb0")
+	)
+	(wire
+		(pts
+			(xy 316.23 62.23) (xy 320.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e413ce67-41b4-4cb8-83f9-5f908c503f76")
+	)
+	(wire
+		(pts
+			(xy 316.23 87.63) (xy 320.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41c99bb-4d8f-461a-9ec4-1ad7ef2ff660")
+	)
+	(wire
+		(pts
+			(xy 320.04 62.23) (xy 331.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56a4aa3-06e9-4998-9563-2895f88555a9")
+	)
+	(wire
+		(pts
+			(xy 335.28 102.87) (xy 339.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea902749-2061-443b-baba-43e84b36851d")
+	)
+	(wire
+		(pts
+			(xy 261.62 180.34) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabd53f3-ed81-42a2-852f-946714bc6545")
 	)
 	(wire
 		(pts
@@ -2338,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 138.43) (xy 316.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9052d5-656f-4d6a-87fa-48c156a030dc")
+	)
+	(wire
+		(pts
 			(xy 116.84 71.12) (xy 116.84 88.9)
 		)
 		(stroke
@@ -2345,6 +4754,56 @@
 			(type default)
 		)
 		(uuid "ef9b8594-b7e9-4f1b-811b-09f027361871")
+	)
+	(wire
+		(pts
+			(xy 323.85 77.47) (xy 323.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01243a9-a710-4c6e-8d2a-f99d35be6c55")
+	)
+	(wire
+		(pts
+			(xy 304.8 113.03) (xy 320.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ee4fb1-1760-430f-b1e0-2f06b9f73ae4")
+	)
+	(wire
+		(pts
+			(xy 300.99 87.63) (xy 304.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c19777-734b-480e-a59b-c96efb513dbb")
+	)
+	(wire
+		(pts
+			(xy 266.7 95.25) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32ada9a-03bf-4fee-bdbb-d61d1345b579")
+	)
+	(wire
+		(pts
+			(xy 300.99 113.03) (xy 304.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68b6ff5-32cd-49a1-ae87-2a82a86b7c89")
 	)
 	(wire
 		(pts
@@ -2368,6 +4827,36 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 87.63) (xy 270.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8eb5d49-6ddf-4468-b89f-b621007e390e")
+	)
+	(wire
+		(pts
+			(xy 261.62 87.63) (xy 261.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9739000-d4c3-499f-a199-2fc8c88aa9ba")
+	)
+	(wire
+		(pts
+			(xy 274.32 138.43) (xy 285.75 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa151b1a-9664-49cc-b22b-0ae8756be56d")
+	)
+	(wire
+		(pts
 			(xy 116.84 53.34) (xy 116.84 41.91)
 		)
 		(stroke
@@ -2385,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "fb6f36d8-22f4-45b2-90c1-843fd85f4d1b")
+	)
+	(wire
+		(pts
+			(xy 351.79 62.23) (xy 351.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08385f-4757-4a43-aeff-4a01efd3237f")
 	)
 	(wire
 		(pts
@@ -2645,6 +5144,54 @@
 			(justify left bottom)
 		)
 		(uuid "ffacd23c-a2d6-4042-9fdb-12ab70c9431a")
+	)
+	(global_label "LED DATA"
+		(shape output)
+		(at 194.31 81.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "251a7e5f-cebd-4708-ad43-c10a51f138e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 93.0947 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LED DATA"
+		(shape input)
+		(at 259.08 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67599ed2-0424-48d1-b20b-14650b3d12c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.2653 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -3091,6 +5638,180 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 335.28 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185165da-c761-4bbd-8d30-ac3cf1f24364")
+		(property "Reference" "#PWR011"
+			(at 335.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 335.28 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 335.28 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14ec3c93-ff7b-40c9-a30e-e1ab20ef3781")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 289.56 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e9f96ad-374a-454f-8cbd-defbfba7c9e1")
+		(property "Reference" "D64"
+			(at 291.592 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 303.53 116.7698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 290.83 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 292.1 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 289.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a0b679d-2ad7-4845-ade9-8ab049d8de79")
+		)
+		(pin "3"
+			(uuid "d1a7206b-2a47-4552-9afc-3162bc2833b8")
+		)
+		(pin "4"
+			(uuid "192192ca-2029-4331-82ce-6a9bc01ae2eb")
+		)
+		(pin "2"
+			(uuid "fb41fa9d-882b-4789-89f7-646fc7e80da0")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D69")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 127 110.49 90)
 		(unit 1)
@@ -3193,6 +5914,99 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 289.56 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "213ec0a2-2860-4d80-b54f-872435d9b61c")
+		(property "Reference" "D56"
+			(at 287.528 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 275.59 91.3698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 288.29 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 287.02 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 289.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "311a8f7a-0d3d-4f22-ab05-4898c630e310")
+		)
+		(pin "3"
+			(uuid "a774f1f3-1084-4bfa-b93c-8071f9f577bc")
+		)
+		(pin "4"
+			(uuid "c131d231-9ea4-4f56-bb1b-0d12070a71e8")
+		)
+		(pin "2"
+			(uuid "f0da9e1d-7261-4580-9fe1-424b4aedcba0")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D61")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -3438,6 +6252,98 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 335.28 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29f0ccc9-2695-488c-8768-fd4476a85c5b")
+		(property "Reference" "D51"
+			(at 337.312 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 349.25 65.9698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 336.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 337.82 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 335.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0aa1360-09fa-460a-891f-cad5b4ab90bf")
+		)
+		(pin "3"
+			(uuid "8d5f62d4-957e-4ff9-847c-734bde13faa8")
+		)
+		(pin "4"
+			(uuid "255caed5-dd0e-4aa7-abc4-19102894ff08")
+		)
+		(pin "2"
+			(uuid "4da73027-21f6-4eb1-a2c4-68816fbb429d")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D52")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -3795,6 +6701,274 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38cc7945-29a6-4edd-b864-2e468c6d7477")
+		(property "Reference" "#PWR013"
+			(at 198.12 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c466af56-1857-4e9a-8023-2f297078c3c1")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 320.04 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4199f55a-93e6-40a3-a3f6-4039eac60dfb")
+		(property "Reference" "D54"
+			(at 318.008 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 306.07 91.3698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 318.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 317.5 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 320.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9bf83ad-d832-41a8-9fe5-2a256d57f62c")
+		)
+		(pin "3"
+			(uuid "acdfa892-0086-47a7-a4c1-8473944fc565")
+		)
+		(pin "4"
+			(uuid "6ac8d2e7-d4ea-4c16-a21f-e54b27857977")
+		)
+		(pin "2"
+			(uuid "b982ddeb-d1d1-4062-a6b0-969be1a70cea")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 320.04 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47734cde-f3ec-421c-9fc1-4ae09258d41e")
+		(property "Reference" "D74"
+			(at 318.008 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 306.07 142.1698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 318.77 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 317.5 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 320.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "187c3f2c-e4df-486b-b97e-9aafe3dc37b7")
+		)
+		(pin "3"
+			(uuid "f7e109eb-e946-44c3-aaf1-261c8c5088ea")
+		)
+		(pin "4"
+			(uuid "8a3d592c-5138-4605-855e-209c44b23885")
+		)
+		(pin "2"
+			(uuid "1e5b0318-cef2-44b3-ab73-ecd9fb099bf1")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D79")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -4185,6 +7359,99 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 274.32 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50c5a27f-d436-43e0-979c-3a6d921f1e37")
+		(property "Reference" "D57"
+			(at 272.288 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 260.35 91.3698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 273.05 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 271.78 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 274.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c8a800e-bb4b-472d-a253-2383f9eb8940")
+		)
+		(pin "3"
+			(uuid "b34cc1eb-fc16-4fe8-b9c8-dc6f8f7aee0f")
+		)
+		(pin "4"
+			(uuid "49e777c9-f5ed-4ea1-aa7a-8af191e8d029")
+		)
+		(pin "2"
+			(uuid "22d8320b-9b5e-4c32-9406-73fd3ed3ecbc")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D62")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 127 74.93 90)
 		(unit 1)
@@ -4377,6 +7644,192 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 289.56 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52f5c81b-f3f5-4b84-9ccc-0e108fcaf544")
+		(property "Reference" "D76"
+			(at 287.528 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 275.59 142.1698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 288.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 287.02 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 289.56 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03636124-7661-4c87-9f46-086c4439a8f9")
+		)
+		(pin "3"
+			(uuid "420411b3-003b-46fa-b20e-9012c9f40441")
+		)
+		(pin "4"
+			(uuid "e989bfdd-5e06-429b-be35-7e7c1e605ceb")
+		)
+		(pin "2"
+			(uuid "479f4ba9-6dd0-46cf-9189-6148355086bf")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D81")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 304.8 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "552ee9db-ef19-400f-ae9c-0d52815eb53a")
+		(property "Reference" "D55"
+			(at 302.768 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 290.83 91.3698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 303.53 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 302.26 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 304.8 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc63939e-8b87-4721-aaca-b11ca80529fe")
+		)
+		(pin "3"
+			(uuid "111db5ab-274d-4ff5-9ed1-653bcb111420")
+		)
+		(pin "4"
+			(uuid "acc9f301-da5e-4ef2-9fdb-328c411dcf4a")
+		)
+		(pin "2"
+			(uuid "6c27fbb0-1553-45b9-805d-73fa2f169999")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D60")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 73.66 92.71 90)
 		(unit 1)
@@ -4479,6 +7932,98 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 289.56 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b0d7c85-ec97-48c9-aa8d-60ec0e12e2cf")
+		(property "Reference" "D45"
+			(at 291.592 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 303.53 65.9698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 290.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 292.1 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 289.56 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a1405ef-9d90-494d-8690-a10c4102ff7d")
+		)
+		(pin "3"
+			(uuid "7f0101bc-e58f-43d7-ab2b-4966d3d2659b")
+		)
+		(pin "4"
+			(uuid "9496aa89-595f-4757-8a2a-aab7a13d5b65")
+		)
+		(pin "2"
+			(uuid "7c27d8dd-16fc-425f-a842-863c52df922b")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -4841,6 +8386,181 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 274.32 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fbddce6-e401-4149-9ae4-6766e7b53420")
+		(property "Reference" "#PWR09"
+			(at 274.32 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fe936cc-094d-48d1-8477-680180cbe116")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 274.32 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70e6c00e-c5db-4c5a-aec6-2681074fa9d6")
+		(property "Reference" "D43"
+			(at 276.352 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 288.29 65.9698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 275.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 276.86 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 274.32 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e1b953-7d35-4d6c-8da8-bfc70b5070b1")
+		)
+		(pin "3"
+			(uuid "3b1b68b9-439f-4453-bf5a-9d2c736e9290")
+		)
+		(pin "4"
+			(uuid "be064ecd-92df-4b95-803a-bfc9c8219ba0")
+		)
+		(pin "2"
+			(uuid "7dafba51-a9d2-49c4-860c-519a634dd100")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D44")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 91.44 74.93 90)
 		(unit 1)
@@ -5171,7 +8891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 135.128 90)
 			(hide yes)
 			(show_name no)
@@ -5326,6 +9046,376 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 335.28 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e98042c-13ae-4aaf-9002-e46ff38ec731")
+		(property "Reference" "D67"
+			(at 337.312 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 349.25 116.7698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 336.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 337.82 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 335.28 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f83973ba-03c2-4cc6-a0ef-756f022e3a1e")
+		)
+		(pin "3"
+			(uuid "69283b70-9db1-425a-9f65-0946f75822d7")
+		)
+		(pin "4"
+			(uuid "88263ca1-a5c5-4185-906f-1c93bdfe7024")
+		)
+		(pin "2"
+			(uuid "ffeba449-9366-4d47-a303-c895a6100f18")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D72")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 335.28 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82e99aa5-bbcb-46e5-9cea-195b62e1478d")
+		(property "Reference" "D73"
+			(at 333.248 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 321.31 142.1698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 334.01 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 332.74 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 335.28 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c57bf34-18e4-447e-85b4-eb891df60352")
+		)
+		(pin "3"
+			(uuid "f1c5c9da-2216-41cd-b284-b269cc81ea03")
+		)
+		(pin "4"
+			(uuid "f129bf46-cfc2-49c8-9866-87ab6b614609")
+		)
+		(pin "2"
+			(uuid "c606cc43-fc3e-4d52-ab08-264e1404f069")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D78")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 304.8 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8720db77-a362-4cad-9d77-d8e3f95647b6")
+		(property "Reference" "D75"
+			(at 302.768 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 290.83 142.1698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 303.53 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 302.26 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 304.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eeeca7f-c1dc-4eea-9729-2779f5707cef")
+		)
+		(pin "3"
+			(uuid "16954bca-917e-427f-b161-fe7f17b0bbd5")
+		)
+		(pin "4"
+			(uuid "6cc9f097-e717-4d3d-b0bc-78c09642ffb6")
+		)
+		(pin "2"
+			(uuid "58758614-2e16-45af-87b9-d72d276114e5")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D80")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 320.04 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a207da7-8ba0-4b6d-aebd-e1e9265c65aa")
+		(property "Reference" "D49"
+			(at 322.072 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 334.01 65.9698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 321.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 322.58 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 320.04 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df173dd2-b691-4740-bfbb-def273bc108c")
+		)
+		(pin "3"
+			(uuid "a404baa0-75c4-469c-b8b3-b9ca8a4187d4")
+		)
+		(pin "4"
+			(uuid "11c3ded5-830b-45e4-b209-06136e2d8f92")
+		)
+		(pin "2"
+			(uuid "04fc2a1f-a5f1-4067-a110-d14a8ddd42d0")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -5820,6 +9910,89 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 210.82 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f827a14-03e0-4906-bc5c-ad4a0e36fdae")
+		(property "Reference" "#PWR015"
+			(at 207.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 214.63 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 210.82 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "061832f2-d9ee-460f-bc6e-0a60dc77af5f")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 109.22 92.71 90)
 		(unit 1)
@@ -5922,6 +10095,98 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 335.28 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6f0ab78-f5ed-41ce-a298-7afbd762fbef")
+		(property "Reference" "D83"
+			(at 333.248 178.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 321.31 176.6002 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 334.01 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 332.74 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 335.28 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1114fc55-41e1-46f6-9266-a2e833d9d2ef")
+		)
+		(pin "3"
+			(uuid "693f6308-7056-40d6-9bb0-c563ac6a4458")
+		)
+		(pin "4"
+			(uuid "e347aa79-b037-4f27-9140-25bfa31f8156")
+		)
+		(pin "2"
+			(uuid "2541c6c1-45ac-4a35-b723-0b5b10778334")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D84")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -6170,6 +10435,98 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 304.8 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b044fa23-88e9-4c0c-8843-14533d63bf40")
+		(property "Reference" "D65"
+			(at 306.832 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 318.77 116.7698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 306.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 307.34 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 304.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b935aca-d8e4-4968-850e-798db09c03c7")
+		)
+		(pin "3"
+			(uuid "14c01b96-4d71-4fc8-91ff-17cf18092386")
+		)
+		(pin "4"
+			(uuid "f394b664-42a9-4ab1-84f1-a3af2156c3db")
+		)
+		(pin "2"
+			(uuid "ee7324d2-6061-475b-8e9f-de1ab1268a8c")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D70")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -6752,6 +11109,99 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 274.32 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d77173f3-e138-4130-b1bd-d6a2660c70fc")
+		(property "Reference" "D77"
+			(at 272.288 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 260.35 142.1698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 273.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 271.78 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 274.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c9848dd-5579-49f6-9dc3-7d554bf963bf")
+		)
+		(pin "3"
+			(uuid "2b66bab9-37d5-461f-987e-42ab1bb3bd87")
+		)
+		(pin "4"
+			(uuid "31e32244-974f-4562-a060-48a1277f2a32")
+		)
+		(pin "2"
+			(uuid "731e731b-97d8-4294-9978-5700391e6404")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D82")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 86.36 88.9 0)
 		(unit 1)
@@ -6830,6 +11280,181 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 351.79 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7f5e896-d2ec-4996-82f7-907a0799393a")
+		(property "Reference" "C43"
+			(at 350.52 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 mF"
+			(at 355.6 69.596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 350.8248 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 351.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76abaeb-ec71-4d0b-a093-90b06506588e")
+		)
+		(pin "2"
+			(uuid "434d8f2a-a9e0-4f58-9b24-721cc3303362")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 304.8 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df8db9cb-94cd-4942-9e67-6af390f5442c")
+		(property "Reference" "D47"
+			(at 306.832 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 318.77 65.9698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 306.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 307.34 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 304.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef4fb670-e3db-4154-acc9-65a359d752c8")
+		)
+		(pin "3"
+			(uuid "eccf8f0f-7269-483e-a2cb-01eae59a7504")
+		)
+		(pin "4"
+			(uuid "3f22a232-bd09-424c-94c7-ba1e45600fec")
+		)
+		(pin "2"
+			(uuid "21a4ab93-678d-4024-9fcd-7ac0e3323524")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -7336,7 +11961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD"
+		(property "Footprint" "New_XIAO_Series_Footprints:XIAO-nRF52840-SMD"
 			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7443,6 +12068,98 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 274.32 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef2d3f7b-1abe-48b9-a277-9314a664a296")
+		(property "Reference" "D63"
+			(at 276.352 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 288.29 116.7698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 275.59 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 276.86 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 274.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5560680f-b1c4-44a5-aa9e-925841c818d6")
+		)
+		(pin "3"
+			(uuid "99c0141f-b009-44d1-a6de-0f4c531478d0")
+		)
+		(pin "4"
+			(uuid "46e31d96-f767-4f83-8cab-f36d88542173")
+		)
+		(pin "2"
+			(uuid "53c3623e-1143-48f3-a593-c1bdcb0ba6c7")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D68")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -7637,6 +12354,181 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 262.89 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8b01115-78fe-4bb6-ad96-e46a948f9e91")
+		(property "Reference" "R5"
+			(at 264.16 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 260.604 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 262.89 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cbdd69e-4ff2-4680-b954-556dadb33a72")
+		)
+		(pin "2"
+			(uuid "785b00af-9ec8-4f3d-8dbf-d79e30cb6556")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 320.04 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc0b7d9e-a4c3-4012-8d48-435a6b1225f7")
+		(property "Reference" "D66"
+			(at 322.072 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 334.01 116.7698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 321.31 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 322.58 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 320.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b158a30e-356f-4af5-b8b0-c5f9b043e0f1")
+		)
+		(pin "3"
+			(uuid "7494fe35-ae85-4fe0-ab7f-120c694154ea")
+		)
+		(pin "4"
+			(uuid "637dda72-b7d2-41b7-bd74-7a89e795f272")
+		)
+		(pin "2"
+			(uuid "793e7887-5884-4e8f-998e-e748c6aa26e1")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D71")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 121.92 53.34 0)
 		(unit 1)
@@ -7715,6 +12607,99 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 335.28 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff2515b5-2214-4b72-951a-5be72cead552")
+		(property "Reference" "D53"
+			(at 333.248 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 321.31 91.3698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts.pretty-master:MX_SK6812MINI-E"
+			(at 334.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 332.74 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 335.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "735f3ce9-8531-48f0-814e-21ebdd51b582")
+		)
+		(pin "3"
+			(uuid "4bdd47a8-86ff-49ef-a858-bbc660778055")
+		)
+		(pin "4"
+			(uuid "019c8a99-e1bf-4315-aebe-2027b896d8ed")
+		)
+		(pin "2"
+			(uuid "6d033736-57ac-4182-996d-8a2fc40c7dbb")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "D53")
 					(unit 1)
 				)
 			)

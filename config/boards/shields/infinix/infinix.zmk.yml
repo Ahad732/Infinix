@@ -1,10 +1,7 @@
-file_format: "1"  
-id: infinix  
-name: Infinix  
-type: keyboard  
-features: 
-  -bluetooth  
-  -split  
-siblings:  
-  -infinix_left
-  -infinix_right
+﻿file_format: "1"
+id: infinix
+name: Infinix
+type: shield
+siblings:
+  - infinix_left
+  - infinix_right

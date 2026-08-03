@@ -1,11 +1,6 @@
+﻿---
 include:
-  - board: xiao_ble/zmk
+  - board: seeeduino_xiao_ble
     shield: infinix_left
-  - board: xiao_ble/zmk
-    shield: infinix_right
-include:
-  - board: xiao_ble/nrf52840/zmk
-    shield: infinix_left
-
-  - board: xiao_ble/nrf52840/zmk
+  - board: seeeduino_xiao_ble
     shield: infinix_right
