@@ -1,5 +1,4 @@
-﻿---
-include:
+﻿include:
   - board: seeeduino_xiao_ble
     shield: infinix_left
   - board: seeeduino_xiao_ble
