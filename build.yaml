@@ -1,5 +1,7 @@
 ﻿include:
   - board: xiao_ble//zmk
     shield: infinix_left
+    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
   - board: xiao_ble//zmk
     shield: infinix_right
+    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
