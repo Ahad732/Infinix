@@ -3,6 +3,3 @@
 
 config SHIELD_INFINIX_RIGHT
     def_bool $(shields_list_contains,infinix_right)
-
-config ZMK_BOARD_COMPAT
-    def_bool y
