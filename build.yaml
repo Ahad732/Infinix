@@ -1,7 +1,5 @@
 ﻿include:
-  - board: xiao_ble//zmk
+  - board: seeed_xiao_ble/nrf52840
     shield: infinix_left
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
-  - board: xiao_ble//zmk
+  - board: seeed_xiao_ble/nrf52840
     shield: infinix_right
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
