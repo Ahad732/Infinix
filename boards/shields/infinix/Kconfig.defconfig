@@ -3,4 +3,7 @@
 config ZMK_KEYBOARD_NAME
     default "Infinix"
 
+config ZMK_SPLIT
+    default y
+
 endif
