@@ -1,4 +1,0 @@
-﻿name: infinix
-build:
-  settings:
-    board_root: config
