@@ -1,6 +1,0 @@
-if SHIELD_INFINIX_LEFT || SHIELD_INFINIX_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Infinix"
-
-endif

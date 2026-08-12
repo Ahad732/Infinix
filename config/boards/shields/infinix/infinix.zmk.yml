@@ -1,9 +1,0 @@
-file_format: "1"
-id: infinix
-name: Infinix
-type: shield
-features:
-  - keys
-siblings:
-  - infinix_left
-  - infinix_right
