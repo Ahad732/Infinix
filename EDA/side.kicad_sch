@@ -10833,6 +10833,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 351.79 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be74266b-f581-4e52-8108-d79300a75057")
+		(property "Reference" "C1"
+			(at 351.79 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 mf"
+			(at 355.6 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 352.7552 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 351.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d585ccf-d849-4dae-81eb-0e78a567544c")
+		)
+		(pin "2"
+			(uuid "f02354c7-df49-4560-af0e-9cab40cf7d82")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 104.14 71.12 0)
 		(unit 1)
@@ -11280,89 +11365,6 @@
 				)
 				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
 					(reference "SW22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 351.79 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d7f5e896-d2ec-4996-82f7-907a0799393a")
-		(property "Reference" "C43"
-			(at 350.52 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 mF"
-			(at 355.6 69.596 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 350.8248 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 351.79 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c76abaeb-ec71-4d0b-a093-90b06506588e")
-		)
-		(pin "2"
-			(uuid "434d8f2a-a9e0-4f58-9b24-721cc3303362")
-		)
-		(instances
-			(project "Split Keyboard"
-				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/2ce9c1b2-e8aa-4ddf-9335-f76f9275765b"
-					(reference "C44")
-					(unit 1)
-				)
-				(path "/829b29a7-7135-42c0-954e-ade73abfcb09/5e08c7af-1845-4dbd-a5de-f204cf708690"
-					(reference "C43")
 					(unit 1)
 				)
 			)
